@@ -1,0 +1,38 @@
+/* src/styles/Layout.css */
+
+.app {
+  display: flex;
+}
+
+.layout {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* New styles for login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100px; /* Adjust as needed */
+  align-self: center;
+  margin-bottom: 20px;
+}

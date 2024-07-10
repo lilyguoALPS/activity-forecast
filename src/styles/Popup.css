@@ -1,0 +1,58 @@
+/* src/styles/Popup.css */
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.popup-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.popup-header,
+.popup-middle,
+.popup-footer {
+  margin-bottom: 20px;
+}
+
+.popup-header h2 {
+  background-color: #4caf50;
+  color: white;
+  margin-bottom: 10px;
+}
+.popup-middle h2 {
+  background-color: #4caf50;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.popup-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-row label {
+  margin-right: 10px;
+}
+
+.popup-row input[type="date"],
+.popup-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popup-footer button {
+  margin-left: 10px;
+}
